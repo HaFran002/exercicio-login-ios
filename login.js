@@ -1,3 +1,6 @@
+const imgPreload = new Image();
+imgPreload.src = 'lockopen.png';
+
 let login = () => {
     let texto = document.getElementById('texto');
     let email = document.querySelector("#email").value;
